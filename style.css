@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    margin: 0;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar{
+    background-color:#f697ff;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+img{
+    width: 100%;
+}
+.quantity-container{
+    position: relative;
+    cursor: pointer;
+}
+.quantity{
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    background-color: rgb(109, 98, 98);
+    border-radius: 50%;
+    padding:1.5px 6.5px;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.namePrice{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.incrementDecrement{
+    display: flex;
+    flex-direction: column;
+}
+
+.productCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.item{
+    width:20%
+}
+
+
+.item:hover{
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.cartTitle{
+    text-align: center;
+}
+
+.line{
+    height: 2px;
+    width: 300px;
+    background-color: black;
+    margin: auto;
+}
+.btn{
+    background-color: transparent;
+    width: 50%;
+    margin: auto;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    scale: 1.5;
+}
+
+.total{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.totalBold{
+    font-weight: 700;
+}
