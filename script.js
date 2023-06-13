@@ -1,9 +1,9 @@
 const incBtns = document.getElementsByClassName('plus')
 const totalPrice =document.querySelector('.totalPrice');
 const itemPrices = document.getElementsByClassName('itemPrice')
-var quantity =document.querySelector('.quantity');
-var quantity2 = parseInt(quantity.innerText)
-var totalPrice2 = parseInt(totalPrice.innerText)
+const quantity =document.querySelector('.quantity');
+let quantity2 = parseInt(quantity.innerText)
+let totalPrice2 = parseInt(totalPrice.innerText)
 
 
 
